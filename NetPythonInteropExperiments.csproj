@@ -7,4 +7,9 @@
   <ItemGroup>
     <PackageReference Include="pythonnet" Version="3.0.0-preview2021-05-03" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="test.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
